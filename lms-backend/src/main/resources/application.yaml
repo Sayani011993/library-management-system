@@ -1,0 +1,7 @@
+app:
+  lms:
+    port: 8080
+
+springdoc:
+  api-docs:
+    path: /api-docs

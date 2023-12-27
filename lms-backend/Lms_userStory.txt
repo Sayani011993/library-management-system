@@ -1,0 +1,25 @@
+Class Name: 1.User--
+2.Student-
+3.Staff---
+4.Book
+5.TransactionTable
+-------
+
+
+Functionality: 1.Registration- user information- Id, 
+			   2.getBookList- List<Book>
+			   3.requestBook(bookName, bookId)
+					a.successResponse(book, issueDate, returnDate)
+					b.failureResponse(reasonCode, reasonMessage, expectedAvailability)
+			   4.search(bookName, Author, )
+			   5.sort(byAuthor, byBookName, publishedDate, publishedMonth, publishedYear)
+			   6.returnBook(transactionId(userId+ bookId), bookName, bookId,)
+					a.successResponse(book, returnDate, transactionStatus)
+					b.failureResponse(reasonCode, reasonMessage, fineDueDate, fineAmount)
+			   7.listOfIssuedBook(List<transactionDetail>)
+			   8.generateAlert(batchMethod,)
+					--search Open Transaction with current date and compaire with due date and generate a listOfIssuedBook.
+							
+			   
+TransactionTable:
+UserName  BookName  Author IssueDate  DueDate  TransactionStatus  
